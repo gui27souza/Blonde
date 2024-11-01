@@ -8,7 +8,8 @@
     justify-content: space-around;
     align-items: center;
 }
-.hero__image img {
+
+.hero-image img {
     position: relative;
     bottom: 50px;
     left: 50px;
@@ -19,13 +20,15 @@
 
     transition: all .3s ease-in-out .1s;
 }
-.hero__image img:hover {
+
+.hero-image img:hover {
     height: 700px;
     width: 700px;
 
     transition: all .3s ease-in-out .1s;
 }
-.hero__text {
+
+.hero-text {
     color: #2c2c2c;
     font-size: 3rem;
     font-style: italic;
@@ -41,6 +44,7 @@
     flex-flow: column;
     align-items: center;
 }
-.hero__text ol {
+
+.hero-text ol {
     list-style-position: outside;
 }

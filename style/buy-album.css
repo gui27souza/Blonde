@@ -7,7 +7,8 @@
     height: calc(100vh);
     align-content: center; 
 }
-.buy-album__container {
+
+.buy-album-container {
     height: calc(100vh - 100px);
     width: 80%;
     margin: 0 auto;
@@ -16,6 +17,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .item {
     background-color: #dddddd;
 
@@ -33,31 +35,37 @@
 
     transition: all .3s ease-in-out .1s;
 }
+
 .item:hover {
     transition: all .3s ease-in-out .1s;
     padding: 80px 40px;
     box-shadow: 0 0 70px #dddddd;
 }
+
 .item:hover img {
     transition: all .3s ease-in-out .1s;
     height: 230px;
     width: 230px;
 }
+
 .item:hover a {
     transition: padding .2s ease-in-out .1s;
     padding: 20px 25px;
 }
+
 .item img {
     transition: all .3s ease-in-out .1s;
     height: 200px;
     width: 200px;
 }
+
 .item p {
     font-size: 3rem;
 
     margin-top: 50px;
     margin-bottom: 5px;
 }
+
 .item p a {
     color: #dddddd;
     background-color: #2c2c2c;
@@ -68,7 +76,6 @@
 
     transition: padding .2s ease-in-out .1s;
 }
-
 
 #blonde-cd {
     height: 250px; 
