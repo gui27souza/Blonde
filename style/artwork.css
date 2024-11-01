@@ -1,0 +1,35 @@
+.artwork {
+    background-image: url(../assets/images/backgrounds/art.png);
+    background-position: bottom;
+    height: 100vh;
+}
+.artwork__container {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.artwork__container__art img {
+    height: 300px;
+    width: 300px;
+
+    box-shadow: 0 0 0 #dddddd;
+
+    border-radius: 30px;
+
+    transition: all .2s ease-in-out .1s;
+}
+.artwork__container__art img:hover {
+    height: 400px;
+    width: 400px;
+
+    box-shadow: 0 0 70px #dddddd;
+
+    border-radius: 0;
+
+    transition: all .2s ease-in-out .1s;
+}

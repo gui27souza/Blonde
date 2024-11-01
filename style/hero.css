@@ -1,0 +1,46 @@
+.hero {
+    background-image: url(../assets/images/backgrounds/home.png);
+    background-position: bottom;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero__image img {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    z-index: 0;
+
+    height: 600px;
+    width: 600px;
+
+    transition: all .3s ease-in-out .1s;
+}
+.hero__image img:hover {
+    height: 700px;
+    width: 700px;
+
+    transition: all .3s ease-in-out .1s;
+}
+.hero__text {
+    color: #2c2c2c;
+    font-size: 3rem;
+    font-style: italic;
+
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    z-index: 0;
+    
+    width: 600px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.hero__text ol {
+    list-style-position: outside;
+}
