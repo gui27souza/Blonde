@@ -1,50 +1,44 @@
 .header {
     background-color: #f1f1f1;
     box-shadow: 0 7px 7px #2c2c2c;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    height: 100px;
-
-    position: sticky;
-    top: 0;
-    z-index: 1;
 }
 
-.header-title h1{
+.header-title{
     font-family: 'Blonde';
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: -2px;
+    padding-left: 2rem;
+}
 
-    position: relative;
-    bottom: 10px;
-    margin-left: 100px;
+.header-menu {
+    height: 100%;
+    padding-right: 2rem;
 }
 
 .header-menu ul {
-    margin-right: 100px;
+    gap: 2rem;
 }
 
 .header-menu ul li {
     font-size: 3rem;
 
-    margin: 0;
-
-    display: inline-block;
+    height: 100%;
 }
 
 .header-menu ul li a {
     color: black;
     text-decoration: none;
 
-    padding: 36px 30px;
+    border-radius: .5rem;
 
     transition: background-color .3s ease-in-out;
 }
 
 .header-menu ul li a:hover {
-    transition: background-color .3s ease-in-out;
-    background-color: #cacaca;
+    filter: drop-shadow(0 0 4px #000000);
+    -webkit-text-stroke: .5px rgb(71, 71, 71);
+}
+
+.navbar-toggler-icon {
+    font-size: 2rem;
 }
